@@ -56,7 +56,6 @@ export class PrismaSchemaFactory {
             ? field.typeClass
             : field.typeClass?.name;
 
-        if (typeIndentifier == 'Session') console.log('BLOCK', this.blocks[typeIndentifier]);
         const inferedType = typeof field.type === 'function' ? field.type(this.blocks[typeIndentifier]) : field.type;
 
         if (isModel(this.blocks[blockName]))

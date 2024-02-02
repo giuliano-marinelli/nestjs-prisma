@@ -33,7 +33,6 @@ export function Model<T extends RefractCompound>(
       : options;
   return (target) => {
     let model = RefractModel(_name ? _name : target.name, _options?.comment);
-    console.log('Blocks', _blocks);
     _blocks?.forEach((block) => {
       model.Block(block);
     });
