@@ -1,7 +1,7 @@
 {
   "name": "@nestjs!/prisma",
   "version": "1.0.1",
-  "description": "Prisma (TypeScript) module for Nest framework (node.js) that allow generate Prisma schema based on Nest decorators.",
+  "description": "Prisma (TypeScript) module for Nest framework (node.js) that allow generate Prisma schema based on decorators.",
   "author": "Giuliano Marinelli",
   "license": "MIT",
   "main": "dist/index",
@@ -27,5 +27,10 @@
   "peerDependencies": {
     "@nestjs/common": "^9.3.8 || ^10.0.0",
     "@nestjs/core": "^9.3.8 || ^10.0.0"
+  },
+  "homepage": "https://github.com/giuliano-marinelli/nestjs-prisma#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/giuliano-marinelli/nestjs-prisma"
   }
 }

@@ -34,7 +34,7 @@ $ npm install @nestjs!/prisma
 
 [Overview & Tutorial](https://docs.nestjs.com/recipes/prisma)
 
-[Documentation](https://github.com/giuliano-marinelli/nestjs-prisma/blob/main/README.md)
+[Documentation](https://github.com/giuliano-marinelli/nestjs-prisma/wiki)
 
 ## Stay in touch
 
@@ -42,6 +42,10 @@ $ npm install @nestjs!/prisma
 
 - Author - [Giuliano Marinelli](https://www.linkedin.com/in/giuliano-marinelli/)
 - Website - [https://github.com/giuliano-marinelli](https://github.com/giuliano-marinelli)
+
+### Refract
+
+- Website - [https://github.com/cwqt](https://github.com/cwqt)
 
 ### Nest
 
