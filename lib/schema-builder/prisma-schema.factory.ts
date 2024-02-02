@@ -7,7 +7,6 @@ import {
   Scalar as RefractTypeScalar,
   Relation as RefractTypeRelation
 } from '@nestjs!/refract/dist/types/fields';
-import { type } from 'os';
 
 export class PrismaSchemaFactory {
   blocks: { [blockName: string]: RefractTypeBlock } = {};

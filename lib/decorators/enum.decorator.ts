@@ -1,4 +1,4 @@
-import { PrismaSchema } from '../builder/prisma-schema.factory';
+import { PrismaSchema } from '../schema-builder/prisma-schema.factory';
 import { Enum as RefractEnum, Key as RefractKey, Map as RefractMap } from '@nestjs!/refract';
 import { EnumKey as RefractTypeEnumKey } from '@nestjs!/refract/dist/types/fields';
 

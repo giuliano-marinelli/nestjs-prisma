@@ -5,7 +5,7 @@ import { PrismaService } from './prisma.service';
 import { join } from 'path';
 
 import Refract from '@nestjs!/refract';
-import { PrismaSchema } from './builder/prisma-schema.factory';
+import { PrismaSchema } from './schema-builder/prisma-schema.factory';
 
 @Module({ providers: [PrismaService], exports: [PrismaService] })
 export class PrismaModule implements OnModuleInit {

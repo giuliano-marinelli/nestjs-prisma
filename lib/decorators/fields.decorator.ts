@@ -1,4 +1,4 @@
-import { PrismaSchema } from '../builder/prisma-schema.factory';
+import { PrismaSchema } from '../schema-builder/prisma-schema.factory';
 import { Block as RefractTypeBlock } from '@nestjs!/refract/dist/types/blocks';
 import { Field as RefractTypeField, Scalar as RefractTypeScalar } from '@nestjs!/refract/dist/types/fields';
 

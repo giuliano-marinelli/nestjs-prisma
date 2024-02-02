@@ -1,4 +1,4 @@
-import { PrismaSchema } from '../builder/prisma-schema.factory';
+import { PrismaSchema } from '../schema-builder/prisma-schema.factory';
 import { Type as RefractType } from '@nestjs!/refract';
 
 export function Type(): ClassDecorator;

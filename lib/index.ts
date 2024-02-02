@@ -1,6 +1,6 @@
 import { PrismaModule } from './prisma.module';
 import { PrismaService } from './prisma.service';
-import { PrismaSchema } from './builder/prisma-schema.factory';
+import { PrismaSchema } from './schema-builder/prisma-schema.factory';
 
 import { Model } from './decorators/model.decorator';
 import { Type } from './decorators/type.decorator';

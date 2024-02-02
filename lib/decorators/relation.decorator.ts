@@ -1,4 +1,4 @@
-import { PrismaSchema } from '../builder/prisma-schema.factory';
+import { PrismaSchema } from '../schema-builder/prisma-schema.factory';
 import { $Model as RefractModel } from '@nestjs!/refract';
 import { Field as RefractTypeField, Relation as RefractTypeRelation } from '@nestjs!/refract/dist/types/fields';
 
